@@ -1,0 +1,8 @@
+platform :ios, '8.1'
+
+target 'firebase-long-connect' do
+    pod 'libextobjc', '0.4'	
+    pod 'MBProgressHUD', '0.9'
+    pod 'Mantle', '2.0.5'
+    pod 'Firebase', '2.4.2'
+end

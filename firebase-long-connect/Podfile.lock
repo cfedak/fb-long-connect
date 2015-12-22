@@ -1,0 +1,55 @@
+PODS:
+  - Firebase (2.4.2)
+  - libextobjc (0.4):
+    - libextobjc/EXTADT (= 0.4)
+    - libextobjc/EXTConcreteProtocol (= 0.4)
+    - libextobjc/EXTKeyPathCoding (= 0.4)
+    - libextobjc/EXTNil (= 0.4)
+    - libextobjc/EXTSafeCategory (= 0.4)
+    - libextobjc/EXTScope (= 0.4)
+    - libextobjc/EXTSelectorChecking (= 0.4)
+    - libextobjc/EXTSynthesize (= 0.4)
+    - libextobjc/NSInvocation+EXT (= 0.4)
+    - libextobjc/NSMethodSignature+EXT (= 0.4)
+    - libextobjc/RuntimeExtensions (= 0.4)
+    - libextobjc/UmbrellaHeader (= 0.4)
+  - libextobjc/EXTADT (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4)
+  - libextobjc/UmbrellaHeader (0.4)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - MBProgressHUD (0.9)
+
+DEPENDENCIES:
+  - Firebase (= 2.4.2)
+  - libextobjc (= 0.4)
+  - Mantle (= 2.0.5)
+  - MBProgressHUD (= 0.9)
+
+SPEC CHECKSUMS:
+  Firebase: 5e898ed5012c81d28ca5fae1113c6b61a172bc6d
+  libextobjc: f2802d4262f6885570df9799747409ceb1de602c
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+
+COCOAPODS: 0.38.2
