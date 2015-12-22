@@ -67,6 +67,15 @@ static NSString *path = @"https://crackling-torch-790.firebaseio.com";
 - (void)startFirebase {
     self.firebase = [[Firebase alloc] initWithUrl:path];
     @weakify(self)
+    
+    [[self.firebase childByAppendingPath:@".info/connected"] observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+        NSLog(@"Connected updated: %@", snapshot.value);
+    }];
+    
+    [[self.firebase childByAppendingPath:@".info/authenticated"] observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+        NSLog(@"Authentication updated: %@", snapshot.value);
+    }];
+    
     NSLog(@"Authenticating");
     [self.firebase authWithCustomToken:token withCompletionBlock:^(NSError *error, FAuthData *authData) {
         NSLog(@"Authed with error %@", error);
